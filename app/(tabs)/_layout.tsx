@@ -30,6 +30,42 @@ export default function Layout() {
           ),
         }}
       />
+      <Tabs.Screen
+        name="medilens"
+        options={{
+          title: 'Medilens',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialIcons name="person" size={size} color="#000" /> // Change icon color to black
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="list"
+        options={{
+          title: 'Doctor List',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialIcons name="person" size={size} color="#000" /> // Change icon color to black
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="donation"
+        options={{
+          title: 'Dontions',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialIcons name="person" size={size} color="#000" /> // Change icon color to black
+          ),
+        }}
+      />
+      <Tabs.Screen
+        name="document"
+        options={{
+          title: 'Documents',
+          tabBarIcon: ({ color, size }) => (
+            <MaterialIcons name="person" size={size} color="#000" /> // Change icon color to black
+          ),
+        }}
+      />
     </Tabs>
   );
 }
